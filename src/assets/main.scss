@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* roboto-regular - cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('@/assets/fonts/roboto-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('@/assets/fonts/roboto-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('@/assets/fonts/PPNeueMachina-InktrapRegular.eot');
+  src: url('@/assets/fonts/PPNeueMachina-InktrapRegular.eot?#iefix') format('embedded-opentype'),
+    url('@/assets/fonts/PPNeueMachina-InktrapRegular.woff2') format('woff2'),
+    url('@/assets/fonts/PPNeueMachina-InktrapRegular.woff') format('woff'),
+    url('@/assets/fonts/PPNeueMachina-InktrapRegular.ttf') format('truetype'),
+    url('@/assets/fonts/PPNeueMachina-InktrapRegular.svg#PPNeueMachina-InktrapRegular')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  color: rgb(250, 250, 250);
+  font-family: Neue Machina, Roboto, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  background-color: rgb(18, 18, 18);
+}
+
+h1,
+h2 {
+  color: rgb(250, 250, 250);
+}
+
+button {
+  cursor: pointer;
+}
